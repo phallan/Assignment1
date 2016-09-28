@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Assignment1.master.cs" Inherits="Assignment1.Assignment1" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head runat="server">
+
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <link href="Content/ass.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+
+    <title></title>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+<header role="navigation"><nav class="navbar-fixed-top navbar nav">
+            <div class="container-fluid nav1">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header" >
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://studentweb.cencol.ca/phallan"> <i class="fa fa-smile-o" aria-hidden="true"></i>
+                        Pahul Hallan</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="home" runat="server"><a href="index.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
+                        <li id="product" runat="server"><a href="services.aspx"><i class="fa fa-info" aria-hidden="true"></i> Services</a></li>
+                        <li id="contact" runat="server"><a href="contact.aspx"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
+                        <li id="project" runat="server"><a href="project.aspx"><i class="fa fa-info" aria-hidden="true"></i> Projects</a></li>
+                    <li id="facebook" runat="server"><a href="https://www.facebook.com/pahul.preet.73">    <i class="fa fa-facebook-square" aria-hidden="true"> Facebook</i></a></li>
+                        <li id="limkedin" runat="server"><a href="https://www.linkedin.com/in/pahul-hallan-054104115"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+                         <li id="email" runat="server"><a href="mailto:phallan@my.centennialcollege.ca">"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+                          
+                         </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+ <!--  -->
+</header>
+        <div class="col-sm-3 col-md-6 col-lg-4 top">
+           <div> <img width="200" src="Assest/images/logo2.png" /></div>
+            <div class="vertical-text">
+                <img src="Assest/images/Banner.png" /></div>
+        </div>
+        <div role="main" class="col-sm-9 col-md-6 col-lg-8">
+            <asp:ContentPlaceHolder ID="mainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer role="contentinfo"><nav class="navbar  navbar-fixed-bottom footer">
+            <div class="container"><h4>&copy; 2016 - Pahul Hallan</h4></div>
+                                   </nav></footer>
+        <script src="Scripts/jquery-2.2.4.min.js"></script>
+        <script src="Scripts/jquery-2.2.4.intellisense.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>

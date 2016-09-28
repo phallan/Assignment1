@@ -1,0 +1,23 @@
+﻿ .nav {
+   background-color: #5E2D79 !important;       
+   color:#C8C4CB !important;
+   /*purple rose   #5E2D79  */  
+ }
+ .footer{
+     background-color: #5E2D79 !important;       
+   color:#C8C4CB !important;
+ }
+
+ a:hover {
+     font-size:larger !important;
+	color: #23112D !important;
+    background-color: #AF97BD !important;
+}
+a
+ {  background-color: #5E2D79 !important;       
+   color:#C8C4CB !important;
+}
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
