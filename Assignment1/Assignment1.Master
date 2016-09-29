@@ -41,9 +41,10 @@
                         <li id="product" runat="server"><a href="services.aspx"><i class="fa fa-info" aria-hidden="true"></i> Services</a></li>
                         <li id="contact" runat="server"><a href="contact.aspx"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
                         <li id="project" runat="server"><a href="project.aspx"><i class="fa fa-info" aria-hidden="true"></i> Projects</a></li>
-                    <li id="facebook" runat="server"><a href="https://www.facebook.com/pahul.preet.73">    <i class="fa fa-facebook-square" aria-hidden="true"> Facebook</i></a></li>
+                    <li id="bio" runat="server"><a href="aboutMe.aspx"><i class="fa fa-info" aria-hidden="true"></i> Bio Page</a></li>
+                        <li id="facebook" runat="server"><a href="https://www.facebook.com/pahul.preet.73">    <i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
                         <li id="limkedin" runat="server"><a href="https://www.linkedin.com/in/pahul-hallan-054104115"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-                         <li id="email" runat="server"><a href="mailto:phallan@my.centennialcollege.ca">"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+                         <li id="email" runat="server"><a href="mailto:phallan@my.centennialcollege.ca"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
                           
                          </ul>
                 </div>
@@ -53,16 +54,17 @@
         </nav>
  <!--  -->
 </header>
+        <div style="width:1024px; margin-left:auto; margin-right:auto" >
+          <asp:ContentPlaceHolder ID="banner" runat="server">
+               </asp:ContentPlaceHolder>
         <div class="col-sm-3 col-md-6 col-lg-4 top">
-           <div> <img width="200" src="Assest/images/logo2.png" /></div>
-            <div class="vertical-text">
-                <img src="Assest/images/Banner.png" /></div>
-        </div>
+            <img width="200" src="Assest/images/logo2.png" /></div>
+      
         <div role="main" class="col-sm-9 col-md-6 col-lg-8">
             <asp:ContentPlaceHolder ID="mainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-
+            </div>
         <footer role="contentinfo"><nav class="navbar  navbar-fixed-bottom footer">
             <div class="container"><h4>&copy; 2016 - Pahul Hallan</h4></div>
                                    </nav></footer>

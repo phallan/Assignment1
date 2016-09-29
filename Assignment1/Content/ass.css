@@ -21,3 +21,6 @@ a
 	transform: rotate(90deg);
 	transform-origin: left top 0;
 }
+.text{
+    color:#23112D;
+}

@@ -58,6 +58,15 @@ namespace Assignment1 {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl project;
         
         /// <summary>
+        /// bio control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl bio;
+        
+        /// <summary>
         /// facebook control.
         /// </summary>
         /// <remarks>
@@ -85,12 +94,21 @@ namespace Assignment1 {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl email;
         
         /// <summary>
-        /// picture control.
+        /// banner control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder picture;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder banner;
+        
+        /// <summary>
+        /// mainContent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder mainContent;
     }
 }

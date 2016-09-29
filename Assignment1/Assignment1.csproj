@@ -70,8 +70,11 @@
     <Content Include="Assest\images\Banner.png" />
     <Content Include="Assest\images\C#.png" />
     <Content Include="Assest\images\java.png" />
+    <Content Include="Assest\images\jumbotron.jpg" />
     <Content Include="Assest\images\logo2.png" />
     <Content Include="Assest\images\Pahul.jpg" />
+    <Content Include="Assest\images\projects.jpg" />
+    <Content Include="Assest\images\services.jpg" />
     <Content Include="Content\ass.css" />
     <Content Include="packages.config" />
     <Content Include="project.aspx" />
