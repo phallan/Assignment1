@@ -67,19 +67,28 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutMe.aspx" />
+    <Content Include="Assest\images\asp.net.png" />
     <Content Include="Assest\images\Banner.png" />
-    <Content Include="Assest\images\C#.png" />
+    <Content Include="Assest\images\contact.jpg" />
+    <Content Include="Assest\images\CSharp.png" />
+    <Content Include="Assest\images\css.png" />
+    <Content Include="Assest\images\html.jpg" />
     <Content Include="Assest\images\java.png" />
-    <Content Include="Assest\images\jumbotron.jpg" />
+    <Content Include="Assest\images\javaScript.png" />
     <Content Include="Assest\images\logo2.png" />
+    <Content Include="Assest\images\oracle.png" />
     <Content Include="Assest\images\Pahul.jpg" />
+    <Content Include="Assest\images\Project1.PNG" />
+    <Content Include="Assest\images\Project2.PNG" />
+    <Content Include="Assest\images\Project3.PNG" />
     <Content Include="Assest\images\projects.jpg" />
     <Content Include="Assest\images\services.jpg" />
+    <Content Include="contact.aspx" />
     <Content Include="Content\ass.css" />
     <Content Include="packages.config" />
     <Content Include="project.aspx" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
-    <Content Include="bio.Master" />
+    <Content Include="contact.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -88,7 +97,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -113,7 +121,7 @@
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="Assignment1.Master" />
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
-    <Content Include="index.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.2.4.js" />
@@ -136,29 +144,29 @@
     <Compile Include="Assignment1.Master.designer.cs">
       <DependentUpon>Assignment1.Master</DependentUpon>
     </Compile>
-    <Compile Include="bio.Master.cs">
-      <DependentUpon>bio.Master</DependentUpon>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="bio.Master.designer.cs">
-      <DependentUpon>bio.Master</DependentUpon>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="contact.Master.cs">
+      <DependentUpon>contact.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="contact.Master.designer.cs">
+      <DependentUpon>contact.Master</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="project.aspx.cs">
       <DependentUpon>project.aspx</DependentUpon>

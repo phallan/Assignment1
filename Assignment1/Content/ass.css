@@ -24,3 +24,45 @@ a
 .text{
     color:#23112D;
 }
+.background {
+   
+    /*background-image: url('../Assest/images/contact.jpg');
+    /*opacity: 0.9;
+    /*to be used on contact page*/
+}
+.rightImage{
+    max-width:400px;
+    min-width:100px;
+    width:auto;
+    float:right;
+    padding:10px 10px 10px 10px;
+ }
+/*useful for aligning in body pictures to give a common feel */
+/*.vision{
+    /*used on bio page for different sdwections of  mission statement
+    background-color:#c7859f;
+    color:#23112D;
+    height:100%;
+}
+.bio{
+    /*for biopage content
+    background-color:#ffe79f;
+     color:#23112D;
+     height:100%;
+}
+*/
+body {
+    color: #23112D;
+}
+li{
+    list-style:none;
+    display:grid;
+   font-size:larger;
+}
+.bullet{
+    width:30px;
+}
+.project{
+    width:150px;
+
+}

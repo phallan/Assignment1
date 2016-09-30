@@ -11,7 +11,7 @@ namespace Assignment1
 {
 
 
-    public partial class bio
+    public partial class contact
     {
 
         /// <summary>
