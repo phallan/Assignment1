@@ -14,8 +14,14 @@
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
-
+      <link rel="icon" href="Assest/images/favicon.png" />
     <title></title>
+        <!-- Author:-PAhul Hallan
+        Student Id:- 300876654
+        Semester:- fall2016
+        Course code:- comp229
+        Project Name:- Portfolio file:Assignment 1
+        File Name:- contact.Master-->
     
 </head>
 <body>
@@ -58,12 +64,14 @@
           <asp:ContentPlaceHolder ID="banner" runat="server">
                </asp:ContentPlaceHolder>
             </div>
+         
         <footer role="contentinfo"><nav class="navbar  navbar-fixed-bottom footer">
             <div class="container"><h6>&copy; 2016 - Pahul Hallan</h6></div>
                                    </nav></footer>
         <script src="Scripts/jquery-2.2.4.min.js"></script>
         <script src="Scripts/jquery-2.2.4.intellisense.js"></script>
         <script src="Scripts/bootstrap.min.js"></script>
+      
     </form>
 </body>
 </html>

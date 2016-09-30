@@ -72,9 +72,13 @@
     <Content Include="Assest\images\contact.jpg" />
     <Content Include="Assest\images\CSharp.png" />
     <Content Include="Assest\images\css.png" />
+    <Content Include="Assest\images\email.jpg" />
+    <Content Include="Assest\images\facebook.jpg" />
+    <Content Include="Assest\images\favicon.png" />
     <Content Include="Assest\images\html.jpg" />
     <Content Include="Assest\images\java.png" />
     <Content Include="Assest\images\javaScript.png" />
+    <Content Include="Assest\images\linkedin.jpg" />
     <Content Include="Assest\images\logo2.png" />
     <Content Include="Assest\images\oracle.png" />
     <Content Include="Assest\images\Pahul.jpg" />

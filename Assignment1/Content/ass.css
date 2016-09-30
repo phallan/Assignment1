@@ -1,4 +1,10 @@
-﻿ .nav {
+﻿    /* Author:-PAhul Hallan
+        Student Id:- 300876654
+        Semester:- fall2016
+        Course code:- comp229
+        Project Name:- Portfolio file:Assignment 1
+        File Name:- ass.css */
+.nav {
    background-color: #5E2D79 !important;       
    color:#C8C4CB !important;
    /*purple rose   #5E2D79  */  
@@ -60,9 +66,10 @@ li{
    font-size:larger;
 }
 .bullet{
-    width:30px;
+    width:40px;
 }
 .project{
     width:150px;
 
 }
+.link{width:150px;}

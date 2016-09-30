@@ -1,6 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/contact.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Assignment1.contact1" %>
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/contact.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Assignment1.contact1" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="banner" runat="server">
-    
+        <!-- Author:-PAhul Hallan
+        Student Id:- 300876654
+        Semester:- fall2016
+        Course code:- comp229
+        Project Name:- Portfolio file:Assignment 1
+        File Name:- contact.aspx-->
      <div class="conatainer" style="float:left">
         <div class="row">
     <div class ="col-md-offset-4 col-md-6"></div>
@@ -23,17 +29,19 @@
                     <asp:TextBox TextMode="Phone" CssClass="form-control" ID="ContactNumberTextBox" runat="server" required="true"></asp:TextBox>
                 </div>
 
-                <asp:Button ID="SendButton" CssClass="btn btn-primary btn-lg" Text="Send" runat="server" />
+            <a href="dafault.aspx"> <asp:Button ID="SendButton" CssClass="btn btn-primary btn-lg nav " Text="Send" runat="server" /></a>
               </div></div>
    
       
             <div style="float:right">
               <h3>  You can also reach me here</h3>
-              <a href="https://www.facebook.com/pahul.preet.73">    <i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a>
-                     <a href="https://www.linkedin.com/in/pahul-hallan-054104115"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
-                          <a href="mailto:phallan@my.centennialcollege.ca"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+              <a href="https://www.facebook.com/pahul.preet.73">    <img src="Assest/images/facebook.jpg" class="link" /></a>
+                     <a href="https://www.linkedin.com/in/pahul-hallan-054104115">
+                         <img src="Assest/images/linkedin.jpg" class="link"/></a>
+                          <a href="mailto:phallan@my.centennialcollege.ca">
+                              <img src="Assest/images/email.jpg" class="link"/></a>
                           
-                <h3>Mailing Address</h3>
+                <h2>Mailing Address</h2>
                 <p>949,progress avenue<br />Scarborough<br />Toronto,ON</p>
             </div>
 

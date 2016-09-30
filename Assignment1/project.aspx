@@ -1,8 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Assignment1.Master" AutoEventWireup="true" CodeBehind="project.aspx.cs" Inherits="Assignment1.project" %>
-
+﻿<%@ Page Title="Project" Language="C#" MasterPageFile="~/Assignment1.Master" AutoEventWireup="true" CodeBehind="project.aspx.cs" Inherits="Assignment1.project" %>
+    
 <asp:Content ID="Content1" ContentPlaceHolderID="mainContent" runat="server">
-    <h1>My Projects</h1>
-   <div>
+    <!-- Author:-PAhul Hallan
+        Student Id:- 300876654
+        Semester:- fall2016
+        Course code:- comp229
+        Project Name:- Portfolio file:Assignment 1
+        File Name:- project.aspx--><h1>My Projects</h1>
+   <div><!--link to projects--->
  <ul>  <li>   <a href="http://studentweb.cencol.ca/phallan/assignment4/assignment4.html">
            <img src="Assest/images/Project1.PNG" class="project" /></a> It was a basic html web form web-project. <br />In this project I have to create a web form from a word based form. <br />It was created to register members for a golf club. </li>
      <li><br /></li> <li>  <a href="http://studentweb.cencol.ca/phallan/project/homepage.html"><img src="Assest/images/Project3.PNG" class="project"/></a>This project was a group project created for a furniture store.<br />In this project we had to display the products, provide contact information etc.</li>

@@ -3,23 +3,28 @@
 <!DOCTYPE html>
 
 <html lang="en">
+   
 
 <head runat="server">
 
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
-
     <link href="Content/ass.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
-
+    <link rel="icon" href="Assest/images/favicon.png" />
     <title></title>
-    
-</head>
+  </head>
 <body>
     <form id="form1" runat="server">
+          <!-- Author:-PAhul Hallan
+        Student Id:- 300876654
+        Semester:- fall2016
+        Course code:- comp229
+        Project Name:- Portfolio file:Assignment 1
+        File Name:- Assignment1.Master-->
 <header role="navigation"><nav class="navbar-fixed-top navbar nav">
             <div class="container-fluid nav1">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -30,8 +35,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="https://studentweb.cencol.ca/phallan"> <i class="fa fa-smile-o" aria-hidden="true"></i>
-                        Pahul Hallan</a>
+                    <a class="navbar-brand" href="http://studentweb.cencol.ca/phallan"> <i class="fa fa-smile-o" aria-hidden="true"></i>
+                        Pahul Hallan </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->

@@ -1,7 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Assignment1.Master" AutoEventWireup="true" CodeBehind="Services.aspx.cs" Inherits="Assignment1.Services" %>
+﻿<%@ Page Title="Services" Language="C#" MasterPageFile="~/Assignment1.Master" AutoEventWireup="true" CodeBehind="Services.aspx.cs" Inherits="Assignment1.Services" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="mainContent" runat="server">
-    <h1>Services that I offer!</h1>
+    <h1>Services that I offer!</h1>    <!-- Author:-PAhul Hallan
+        Student Id:- 300876654
+        Semester:- fall2016
+        Course code:- comp229
+        Project Name:- Portfolio file:Assignment 1
+        File Name:- services.aspx-->
  <p>  I provide various services which are necessary to create or maintain any modern web tool or application. I have studied these languages and have hands on experience with each one of those.</p>
     <h4>The services I provide are as follows</h4>
     <ul>
